@@ -8,7 +8,7 @@ const dialog = electron.dialog
 
 let mainWindow
 
-function createWindow() {
+const createWindow = () => {
     mainWindow = new BrowserWindow({
         width: 1000,
         height: 600
@@ -30,7 +30,7 @@ ipc.on('alert-change-dialog', (event) => {
         buttons: ['OK']
     }
 
-    dialog.showMessageBox(options, () => {
+    dialog.showMessageBox(options, (event) => {
       event.sender.send('next-request')
     })
 })

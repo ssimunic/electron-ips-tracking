@@ -7,7 +7,36 @@ strong {
     color: #c3d9ff;
 }
 
+input[type=text] {
+    background: #444444;
+    color:white;
+    border: 1px grey solid;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+}
+
+button {
+    background: dimgrey;
+    color:whitesmoke;
+    border: 1px grey solid;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+hr {
+    border: 1px grey solid;
+}
+
 .tabmen {
     color: white;
     font-weight: 600;
+}
+
+#htmlBox {
+    border: 1px grey solid;
+    border-radius: 3px;
+    padding: 5px;
 }
