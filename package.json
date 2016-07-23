@@ -1,0 +1,14 @@
+{
+  "name": "electron-ips-tracking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Silvio Simunic",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.8"
+  }
+}

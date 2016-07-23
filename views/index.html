@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>IPS Tracking</title>
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        <input type="text" id="trackingNumberInput" placeholder="Tracking number"/>
+        <button id="loadWebsiteButton">
+            Start tracking
+        </button>
+        <p>
+            <input type="checkbox" id="alertCheckbox"> Alert on change
+        </p>
+        <p>Last checked: <span id="lastCheckSpan">Never</span></p>
+        <hr>
+        <div id="htmlBox">
+
+        </div>
+
+    <script>
+        require('../js/index')
+    </script>
+</html>
